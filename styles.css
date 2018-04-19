@@ -151,6 +151,27 @@ main.experience {
     margin: 0 auto;
 }
 
+ul.education,
+ul.employment,
+ul li > ul {
+    list-style: none;
+    padding: 10px 0;
+  }
+
+ul.education,
+ul.employment {
+  border-top: 1px dotted grey;
+  text-align: left;
+  width: 600px;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+ul.employment li span,
+ul.education li span {
+  font-weight: bold;
+}
+
 footer {
   width: 100%;
   min-height: 30px;
