@@ -121,6 +121,27 @@ ul.skills {
   background: #0399ff;
 }
 
+ul.places {
+  padding: 0;
+  text-align: center;
+}
+
+.places li {
+  border-radius: 6px;
+  display: inline-block;
+  background: blue;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+
+.places li:nth-child(odd) {
+  background: purple;
+}
+
 .section-title {
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -153,7 +174,7 @@ main.experience {
 
 ul.education,
 ul.employment,
-ul li > ul {
+ul.employment li > ul {
     list-style: none;
     padding: 10px 0;
   }
@@ -170,6 +191,29 @@ ul.employment {
 ul.employment li span,
 ul.education li span {
   font-weight: bold;
+}
+
+ul.hobbies-list {
+    margin-bottom: 30px;
+    border-bottom: 1px dotted #dcdcdc;
+    padding-bottom: 23px;
+}
+
+figure {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.hiking-pic {
+    margin: 0 12%;
+  }
+
+figcaption {
+    color: #343434;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #343434;
+    max-width: 400px;
 }
 
 footer {
