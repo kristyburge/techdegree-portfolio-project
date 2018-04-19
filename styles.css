@@ -11,6 +11,7 @@ body {
   color: #222;
   background: #f7f5f0;
 }
+
 /* Link Styles */
 
 a {
@@ -87,7 +88,7 @@ header .profile-image:hover {
 }
 .location {
   background-color: #222;
-  color: yellow;
+  color: skyblue;
 }
 .card {
   margin: 30px;
@@ -129,7 +130,7 @@ ul.places {
 .places li {
   border-radius: 6px;
   display: inline-block;
-  background: blue;
+  background: steelblue;
   color: white;
   padding: 5px 10px;
   margin: 2px;
@@ -139,7 +140,12 @@ ul.places {
 }
 
 .places li:nth-child(odd) {
-  background: purple;
+  background: blueviolet;
+}
+
+.skills li:hover,
+.places li:hover {
+    border: 2px dotted #333;
 }
 
 .section-title {
@@ -155,6 +161,7 @@ ul.places {
   border-radius: 5px;
   margin: 5px 0 0 5px;
   color: white;
+  font-size: 0.9em;
 }
 
 .completed::after {
@@ -165,6 +172,7 @@ ul.places {
   border-radius: 5px;
   margin: 5px 0 0 5px;
   color: white;
+  font-size: 0.9em;
 }
 
 main.experience {
