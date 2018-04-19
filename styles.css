@@ -1,8 +1,8 @@
 /* Global Layout Set-up */
-* { 
+* {
   box-sizing: border-box;
 }
-  
+
 body {
   margin: 0;
   padding: 0;
@@ -76,6 +76,7 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -83,7 +84,7 @@ header .profile-image:hover {
   border-radius: 5px;
   display: table;
   margin: 10px auto;
-} 
+}
 .location {
   background-color: #222;
   color: yellow;
@@ -118,6 +119,36 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #0399ff;
+}
+
+.section-title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.current::after {
+  display: inline-block;
+  content: "in progress";
+  background-color: #0AC92B;
+  padding: 7px 10px;
+  border-radius: 5px;
+  margin: 5px 0 0 5px;
+  color: white;
+}
+
+.completed::after {
+  display: inline-block;
+  content: "graduated";
+  background-color: #565656;
+  padding: 7px 10px;
+  border-radius: 5px;
+  margin: 5px 0 0 5px;
+  color: white;
+}
+
+main.experience {
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 footer {
@@ -169,10 +200,10 @@ a.social:hover {
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
-  
+
   .flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
-      display: flex; 
+      display: flex;
       max-width: 1200px;
       -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -204,4 +235,3 @@ a.social:hover {
   }
 
 }
-
