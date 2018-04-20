@@ -112,14 +112,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #ff8d1a;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #1a8cff;
 }
 
 ul.places {
@@ -191,7 +191,7 @@ ul.education,
 ul.employment {
   border-top: 1px dotted grey;
   text-align: left;
-  width: 600px;
+  max-width: 600px;
   margin: 0 auto;
   padding: 25px;
 }
